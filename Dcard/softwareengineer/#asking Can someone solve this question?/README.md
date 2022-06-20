@@ -50,4 +50,4 @@ reply:
 1. To solve this question, you should know Digital Logic Design. Especially Sum-Of-Product (SOP), minterm and don't care terms.
 2. To write the program, you might need to know one of the algorithms that to evaluate a math expression. i.e. Get Reverse Polish notation (RPN) of a expression and evaluate it (["x=1", "y=1", "x & y"]->["1 & 1"]->["1 1 &"]->["true"]). 
 3. Or some advanced skills to parse a boolean expression into minters. i.e. ["X and Y and not Z"]->["minterm 6"].
-4. Please read the code in logic.cpp. It tries to solve this question with enumerating all possible values of variables and evaluating the RPN. This method might be the easiest way to solve this question.
+4. Please read the code in logic.cpp. It tries to solve this question with checking values on truth table(evaluating expressions in RPN). This method might be the easiest way to solve this question.
